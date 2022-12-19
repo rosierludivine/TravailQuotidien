@@ -45,10 +45,10 @@
 // console.log(result);// afficher le resultat 
 
 // 7 Écrivez une fonction qui prend un tableau de nombres et renvoie un tableau de nombres triés par ordre décroissant.
-let Numbers = [3,10,6,42,7];
-function OrderNumbers (Numbers){
-
-   Numbers.reverse();
+let Numbers = [3,1,6,4,7];// creation d'un tableau de nombre entier 
+function OrderNumbers (Numbers){//Creation de la fonction qui s'appelle OrderNumbers 
+   Numbers.sort();
+   Nulbers.reverse();
    return Numbers;
 }
 const result= OrderNumbers(Numbers); 
